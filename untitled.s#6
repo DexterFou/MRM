@@ -913,11 +913,11 @@
 <instance part="SUPPLY5" gate="G$1" x="-38.1" y="38.1" smashed="yes">
 <attribute name="VALUE" x="-38.1" y="34.925" size="1.778" layer="96" align="center"/>
 </instance>
-<instance part="SUPPLY6" gate="G$1" x="-43.18" y="83.82" smashed="yes">
-<attribute name="VALUE" x="-43.307" y="86.868" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY6" gate="G$1" x="-43.18" y="86.36" smashed="yes">
+<attribute name="VALUE" x="-43.307" y="89.408" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY7" gate="G$1" x="-50.8" y="83.82" smashed="yes">
-<attribute name="VALUE" x="-50.927" y="86.868" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY7" gate="G$1" x="-48.26" y="83.82" smashed="yes">
+<attribute name="VALUE" x="-48.387" y="86.868" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY8" gate="G$1" x="60.96" y="40.64" smashed="yes">
 <attribute name="VALUE" x="60.96" y="37.465" size="1.778" layer="96" align="center"/>
@@ -949,13 +949,37 @@
 <instance part="SUPPLY17" gate="G$1" x="127" y="68.58" smashed="yes">
 <attribute name="VALUE" x="126.873" y="71.628" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY18" gate="G$1" x="-40.64" y="91.44" smashed="yes">
-<attribute name="VALUE" x="-41.021" y="94.488" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY18" gate="G$1" x="-38.1" y="88.9" smashed="yes">
+<attribute name="VALUE" x="-38.481" y="91.948" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 </instances>
 <busses>
 </busses>
 <nets>
+<net name="3V3" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="3V3"/>
+<pinref part="SUPPLY7" gate="G$1" pin="3V3"/>
+<wire x1="-35.56" y1="81.28" x2="-48.26" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="-48.26" y1="81.28" x2="-48.26" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="5V0" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="5V"/>
+<pinref part="SUPPLY6" gate="G$1" pin="5V0"/>
+<wire x1="-35.56" y1="83.82" x2="-43.18" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="83.82" x2="-43.18" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="9V0" class="0">
+<segment>
+<pinref part="SUPPLY18" gate="G$1" pin="9V0"/>
+<pinref part="U$1" gate="G$1" pin="VIN"/>
+<wire x1="-38.1" y1="88.9" x2="-38.1" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="-38.1" y1="86.36" x2="-35.56" y2="86.36" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>

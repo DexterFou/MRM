@@ -1,0 +1,10 @@
+20:41:19 **** Incremental Build of configuration Debug for project mainboardV1.2 ****
+make -j12 all 
+arm-none-eabi-size  mainboardV1.2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  16568	    104	   2136	  18808	   4978	mainboardV1.2.elf
+Finished building: default.size.stdout
+ 
+
+20:41:19 Build Finished. 0 errors, 0 warnings. (took 458ms)
+

@@ -1111,10 +1111,11 @@ design rules under a new name.</description>
 <contactref element="T3" pad="E"/>
 <wire x1="157.56" y1="30.56" x2="157.48" y2="30.48" width="0.1524" layer="1"/>
 </signal>
-<signal name="S$26">
+<signal name="S$54">
 <contactref element="U$1" pad="4"/>
 <wire x1="139.7" y1="81.2" x2="139.62" y2="81.2" width="0.1524" layer="1"/>
-<wire x1="139.7" y1="73.66" x2="139.7" y2="81.2" width="0.1524" layer="1"/>
+</signal>
+<signal name="S$26">
 <via x="139.7" y="73.66" extent="1-16" drill="0.35"/>
 <wire x1="137.16" y1="73.66" x2="139.7" y2="73.66" width="0.1524" layer="16"/>
 <wire x1="137.16" y1="68.58" x2="137.16" y2="73.66" width="0.1524" layer="16"/>

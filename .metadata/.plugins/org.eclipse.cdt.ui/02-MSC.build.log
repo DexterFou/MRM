@@ -1,0 +1,57 @@
+01:15:11 **** Incremental Build of configuration Debug for project 02-MSC ****
+make -j12 all 
+arm-none-eabi-gcc "../USB_DEVICE/Target/usbd_conf.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F405xx -c -I../../Core/Inc -I../../USB_DEVICE/App -I../../USB_DEVICE/Target -I../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../../Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc -I../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"USB_DEVICE/Target/usbd_conf.d" -MT"USB_DEVICE/Target/usbd_conf.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "USB_DEVICE/Target/usbd_conf.o"
+arm-none-eabi-gcc "../USB_DEVICE/App/usb_device.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F405xx -c -I../../Core/Inc -I../../USB_DEVICE/App -I../../USB_DEVICE/Target -I../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../../Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc -I../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"USB_DEVICE/App/usb_device.d" -MT"USB_DEVICE/App/usb_device.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "USB_DEVICE/App/usb_device.o"
+arm-none-eabi-gcc "../USB_DEVICE/App/usbd_desc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F405xx -c -I../../Core/Inc -I../../USB_DEVICE/App -I../../USB_DEVICE/Target -I../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../../Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc -I../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"USB_DEVICE/App/usbd_desc.d" -MT"USB_DEVICE/App/usbd_desc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "USB_DEVICE/App/usbd_desc.o"
+arm-none-eabi-gcc "../USB_DEVICE/App/usbd_storage_if.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F405xx -c -I../../Core/Inc -I../../USB_DEVICE/App -I../../USB_DEVICE/Target -I../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../../Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc -I../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"USB_DEVICE/App/usbd_storage_if.d" -MT"USB_DEVICE/App/usbd_storage_if.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "USB_DEVICE/App/usbd_storage_if.o"
+arm-none-eabi-gcc "C:/Users/yasin/OneDrive - Groupe ESIEA/Projet perso/WeAct/WeActStudio.STM32F4_64Pin_CoreBoard/Examples/STM32F405/HAL/02-MSC/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F405xx -c -I../../Core/Inc -I../../USB_DEVICE/App -I../../USB_DEVICE/Target -I../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../../Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc -I../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/USB_Device_Library/usbd_core.d" -MT"Middlewares/USB_Device_Library/usbd_core.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/USB_Device_Library/usbd_core.o"
+arm-none-eabi-gcc "C:/Users/yasin/OneDrive - Groupe ESIEA/Projet perso/WeAct/WeActStudio.STM32F4_64Pin_CoreBoard/Examples/STM32F405/HAL/02-MSC/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F405xx -c -I../../Core/Inc -I../../USB_DEVICE/App -I../../USB_DEVICE/Target -I../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../../Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc -I../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/USB_Device_Library/usbd_ctlreq.d" -MT"Middlewares/USB_Device_Library/usbd_ctlreq.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/USB_Device_Library/usbd_ctlreq.o"
+arm-none-eabi-gcc "C:/Users/yasin/OneDrive - Groupe ESIEA/Projet perso/WeAct/WeActStudio.STM32F4_64Pin_CoreBoard/Examples/STM32F405/HAL/02-MSC/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F405xx -c -I../../Core/Inc -I../../USB_DEVICE/App -I../../USB_DEVICE/Target -I../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../../Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc -I../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/USB_Device_Library/usbd_ioreq.d" -MT"Middlewares/USB_Device_Library/usbd_ioreq.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/USB_Device_Library/usbd_ioreq.o"
+../USB_DEVICE/Target/usbd_conf.c:22:10: fatal error: stm32f4xx.h: No such file or directory
+   22 | #include "stm32f4xx.h"
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+arm-none-eabi-gcc "C:/Users/yasin/OneDrive - Groupe ESIEA/Projet perso/WeAct/WeActStudio.STM32F4_64Pin_CoreBoard/Examples/STM32F405/HAL/02-MSC/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F405xx -c -I../../Core/Inc -I../../USB_DEVICE/App -I../../USB_DEVICE/Target -I../../Drivers/STM32F4xx_HAL_Driver/Inc -I../../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../../Middlewares/ST/STM32_USB_Device_Library/Core/Inc -I../../Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Inc -I../../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Middlewares/USB_Device_Library/usbd_msc.d" -MT"Middlewares/USB_Device_Library/usbd_msc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Middlewares/USB_Device_Library/usbd_msc.o"
+make: *** [USB_DEVICE/Target/subdir.mk:16: USB_DEVICE/Target/usbd_conf.o] Error 1
+make: *** Waiting for unfinished jobs....
+../USB_DEVICE/App/usbd_desc.c:22:10: fatal error: usbd_core.h: No such file or directory
+   22 | #include "usbd_core.h"
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+In file included from ../USB_DEVICE/App/usb_device.c:23:
+../USB_DEVICE/App/usb_device.h:30:10: fatal error: stm32f4xx.h: No such file or directory
+   30 | #include "stm32f4xx.h"
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [USB_DEVICE/App/subdir.mk:20: USB_DEVICE/App/usb_device.o] Error 1
+make: *** [USB_DEVICE/App/subdir.mk:20: USB_DEVICE/App/usbd_desc.o] Error 1
+In file included from ../USB_DEVICE/App/usbd_storage_if.c:22:
+../USB_DEVICE/App/usbd_storage_if.h:30:10: fatal error: usbd_msc.h: No such file or directory
+   30 | #include "usbd_msc.h"
+      |          ^~~~~~~~~~~~
+compilation terminated.
+C:/Users/yasin/OneDrive - Groupe ESIEA/Projet perso/WeAct/WeActStudio.STM32F4_64Pin_CoreBoard/Examples/STM32F405/HAL/02-MSC/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c:20:10: fatal error: usbd_core.h: No such file or directory
+   20 | #include "usbd_core.h"
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [USB_DEVICE/App/subdir.mk:20: USB_DEVICE/App/usbd_storage_if.o] Error 1
+make: *** [Middlewares/USB_Device_Library/subdir.mk:28: Middlewares/USB_Device_Library/usbd_core.o] Error 1
+C:/Users/yasin/OneDrive - Groupe ESIEA/Projet perso/WeAct/WeActStudio.STM32F4_64Pin_CoreBoard/Examples/STM32F405/HAL/02-MSC/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c:20:10: fatal error: usbd_ctlreq.h: No such file or directory
+   20 | #include "usbd_ctlreq.h"
+      |          ^~~~~~~~~~~~~~~
+compilation terminated.
+C:/Users/yasin/OneDrive - Groupe ESIEA/Projet perso/WeAct/WeActStudio.STM32F4_64Pin_CoreBoard/Examples/STM32F405/HAL/02-MSC/Middlewares/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c:20:10: fatal error: usbd_ioreq.h: No such file or directory
+   20 | #include "usbd_ioreq.h"
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [Middlewares/USB_Device_Library/subdir.mk:30: Middlewares/USB_Device_Library/usbd_ctlreq.o] Error 1
+C:/Users/yasin/OneDrive - Groupe ESIEA/Projet perso/WeAct/WeActStudio.STM32F4_64Pin_CoreBoard/Examples/STM32F405/HAL/02-MSC/Middlewares/ST/STM32_USB_Device_Library/Class/MSC/Src/usbd_msc.c:42:10: fatal error: usbd_msc.h: No such file or directory
+   42 | #include "usbd_msc.h"
+      |          ^~~~~~~~~~~~
+compilation terminated.
+make: *** [Middlewares/USB_Device_Library/subdir.mk:32: Middlewares/USB_Device_Library/usbd_ioreq.o] Error 1
+make: *** [Middlewares/USB_Device_Library/subdir.mk:34: Middlewares/USB_Device_Library/usbd_msc.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+
+01:15:13 Build Failed. 17 errors, 0 warnings. (took 1s.152ms)
+
